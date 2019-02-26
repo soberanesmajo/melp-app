@@ -1,8 +1,9 @@
 import React from 'react';
+import './header.css'
 
 const Header = () => (
-    <header>
-        <h1>MELP</h1>
+    <header className="header">
+        <h1 className="type">Melp</h1>
     </header>
 )
         

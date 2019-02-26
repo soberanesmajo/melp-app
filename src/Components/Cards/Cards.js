@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 import Data from '../../data_melp.json';
+import Input from '../Input/Input';
+import './cards.css';
 
 class Cards extends Component {
     constructor() {
@@ -39,6 +41,7 @@ class Cards extends Component {
     render () {
         return (
             <section className="container">
+            <Input />
                 {this.state.dataCard.map(element => {
                     return(
                         <div className="card">
