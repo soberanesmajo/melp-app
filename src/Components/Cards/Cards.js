@@ -39,21 +39,26 @@ class Cards extends Component {
     }
     
     filteringForRating = () => {
+        const ratingArray = [];
         const rating = this.state.dataCard.map(element => {
             const oRating = element.rating;
             return oRating;
         })
-        //console.log(rating);
         rating.sort().reverse();
-        console.log(rating);
+        const ratingObj = {
+            rating: rating
+        }
+        ratingArray.push(ratingObj);
+        console.log(ratingArray);
     }
 
     filteringAlphabetically = () => {
         const names = this.state.dataCard.map(element => {
             const oNames = element.name;
-            console.log(oNames);
-            
+            return oNames;
         })
+        names.sort();
+        //console.log(names);
     }
 
 

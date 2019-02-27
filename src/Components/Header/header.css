@@ -2,6 +2,12 @@
     color: #EB344A;
     border-color: black;
     font-family: 'Pacifico', cursive;
-    font-size: 400%;
+    font-size: 6em;
     text-align: center;
+    height: 25vh;
+    width: 100vw;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

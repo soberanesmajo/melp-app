@@ -1,10 +1,11 @@
 import React, {Component} from 'react';
+import './input.css';
 
 class Input extends Component {
     render (){
         //console.log(this.props);
         return(
-            <div className="input-group mb-3">
+            <div className="input input-group mb-3">
                 <select className="custom-select" id="inputGroupSelect01">
                     <option selected>Filtrar por...</option>
                     <option value="1">Raiting</option>
