@@ -34,22 +34,19 @@ class Cards extends Component {
             }
             newArray.push(dataCard);
         });
-        //console.log(newArray);
+        console.log(newArray);
         this.setState({dataCard:newArray});
     }
     
+    // functions for the Input Component to filtering.
     filteringForRating = () => {
-        const ratingArray = [];
+        //const ratingArray = [];
         const rating = this.state.dataCard.map(element => {
             const oRating = element.rating;
             return oRating;
         })
-        rating.sort().reverse();
-        const ratingObj = {
-            rating: rating
-        }
-        ratingArray.push(ratingObj);
-        console.log(ratingArray);
+        rating.sort().reverse(); 
+        //this.setState({dataCard:[...rating]})
     }
 
     filteringAlphabetically = () => {
@@ -63,11 +60,11 @@ class Cards extends Component {
 
 
     render () {
-        this.filteringForRating();
-        this.filteringAlphabetically();
+        // this.filteringForRating();
+        // this.filteringAlphabetically();
         return (
             <section className="container">
-            <Input data={this.state.dataCard}/>
+            <Input ratingFunc={this.filteringForRating} namesFunc={this.filteringAlphabetically}/>
                 {this.state.dataCard.map(element => {
                     return(
                         <div className="card">
