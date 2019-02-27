@@ -1,13 +1,13 @@
 {
   "main.css": "/melp-app/static/css/main.49181956.chunk.css",
-  "main.js": "/melp-app/static/js/main.3fe69825.chunk.js",
-  "main.js.map": "/melp-app/static/js/main.3fe69825.chunk.js.map",
+  "main.js": "/melp-app/static/js/main.a4b6c68c.chunk.js",
+  "main.js.map": "/melp-app/static/js/main.a4b6c68c.chunk.js.map",
   "runtime~main.js": "/melp-app/static/js/runtime~main.b5154d7d.js",
   "runtime~main.js.map": "/melp-app/static/js/runtime~main.b5154d7d.js.map",
   "static/js/2.646f3d2a.chunk.js": "/melp-app/static/js/2.646f3d2a.chunk.js",
   "static/js/2.646f3d2a.chunk.js.map": "/melp-app/static/js/2.646f3d2a.chunk.js.map",
   "index.html": "/melp-app/index.html",
-  "precache-manifest.22df6d3e464047ef90af5680e298866f.js": "/melp-app/precache-manifest.22df6d3e464047ef90af5680e298866f.js",
+  "precache-manifest.e366c2e8afe8e3331f4662d053b676f8.js": "/melp-app/precache-manifest.e366c2e8afe8e3331f4662d053b676f8.js",
   "service-worker.js": "/melp-app/service-worker.js",
   "static/css/main.49181956.chunk.css.map": "/melp-app/static/css/main.49181956.chunk.css.map"
 }
