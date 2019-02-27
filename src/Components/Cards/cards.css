@@ -16,17 +16,17 @@ margin-top: 10%;
     background-color: #EB344A;
     color: aliceblue;
     font-family: 'Pacifico', cursive;
-    font-size: 4vh;
+    font-size: 1.7em;
     text-align: center;
 }
 
 .card-title {
     font-family: 'Laila', serif;
     font-weight: bold;
-    font-size: 1.5vw;
+    font-size: 1.4em;
 }
 
 .card-text {
     font-family: 'Laila', serif;
-    font-size: 1.3vw; 
+    font-size: 1.2em; 
 }

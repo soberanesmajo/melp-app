@@ -39,14 +39,27 @@ class Cards extends Component {
     }
     
     filteringForRating = () => {
-        const rating = this.state.dataCard;
+        const rating = this.state.dataCard.map(element => {
+            const oRating = element.rating;
+            return oRating;
+        })
+        //console.log(rating);
+        rating.sort().reverse();
         console.log(rating);
-        
+    }
+
+    filteringAlphabetically = () => {
+        const names = this.state.dataCard.map(element => {
+            const oNames = element.name;
+            console.log(oNames);
+            
+        })
     }
 
 
     render () {
         this.filteringForRating();
+        this.filteringAlphabetically();
         return (
             <section className="container">
             <Input data={this.state.dataCard}/>
