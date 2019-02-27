@@ -3,10 +3,30 @@ margin-top: 10%;
 }
 
 .card {
+    border-color: #EB344A;
     margin-bottom: 5%;
     width: 50%;
     margin-left: auto;
     margin-right: auto;
     align-content: center;
     display: flex;
+}
+
+.card-header {
+    background-color: #EB344A;
+    color: aliceblue;
+    font-family: 'Pacifico', cursive;
+    font-size: 4vh;
+    text-align: center;
+}
+
+.card-title {
+    font-family: 'Laila', serif;
+    font-weight: bold;
+    font-size: 1.5vw;
+}
+
+.card-text {
+    font-family: 'Laila', serif;
+    font-size: 1.3vw; 
 }
