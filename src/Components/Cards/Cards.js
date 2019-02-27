@@ -10,7 +10,7 @@ class Cards extends Component {
             dataCard:[]
         }
     }
-    
+
     componentDidMount () {
         const newArray = [];
         const info = Data.forEach(element => {
@@ -34,14 +34,22 @@ class Cards extends Component {
             }
             newArray.push(dataCard);
         });
-        console.log(newArray);
+        //console.log(newArray);
         this.setState({dataCard:newArray});
     }
     
+    filteringForRating = () => {
+        const rating = this.state.dataCard;
+        console.log(rating);
+        
+    }
+
+
     render () {
+        this.filteringForRating();
         return (
             <section className="container">
-            <Input />
+            <Input data={this.state.dataCard}/>
                 {this.state.dataCard.map(element => {
                     return(
                         <div className="card">
